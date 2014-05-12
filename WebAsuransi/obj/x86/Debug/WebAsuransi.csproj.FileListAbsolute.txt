@@ -1,0 +1,8 @@
+D:\WebAsuransi\WebAsuransi\bin\x86\Debug\WebAsuransi.dll
+D:\WebAsuransi\WebAsuransi\bin\x86\Debug\WebAsuransi.pdb
+D:\WebAsuransi\WebAsuransi\bin\x86\Debug\AjaxControlToolkit.dll
+D:\WebAsuransi\WebAsuransi\bin\x86\Debug\obout_EasyMenu_Pro.dll
+D:\WebAsuransi\WebAsuransi\bin\x86\Debug\obout_EasyMenu_Pro.xml
+D:\WebAsuransi\WebAsuransi\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WebAsuransi\WebAsuransi\obj\x86\Debug\WebAsuransi.dll
+D:\WebAsuransi\WebAsuransi\obj\x86\Debug\WebAsuransi.pdb

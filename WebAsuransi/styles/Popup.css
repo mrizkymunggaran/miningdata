@@ -1,0 +1,106 @@
+﻿/* Modal Popup CSS*/
+.mpBg
+{
+	background-color: #5DC9E2;
+	filter: alpha(opacity=30);
+	opacity: 0.4;
+	 
+}
+
+
+.mpBgLoad
+{
+	background-color: #5DC9E2;
+	filter: alpha(opacity=30);
+	opacity: 0.4;
+	
+	
+	 
+}
+.mp
+{
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: Gray;
+	padding:3px ;
+	
+	
+}
+.mp-Input
+{
+	text-transform:uppercase;
+	}
+
+.mp-1
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: Gray;
+	padding:20px ;
+	
+}
+
+
+.mpMsg
+{
+	background-color: White;
+	border-width: 1px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 0px;
+	
+	
+	
+}
+.mpHd
+{
+/*background-image:url('../images/color_blue.png');*/
+background-color:#208994;
+background-repeat:repeat ;
+	
+	border-color: White;
+	border-width: 1px;
+	color: White;
+	font-weight: bold;
+	width: 100%;
+	height: 20px;
+}
+
+.mpHdMsg
+{
+	background-color:Gray;
+background-repeat:repeat ;
+	
+	border-color: Gray;
+	border-width: 1px;
+	color: White;
+	font-weight: bold;
+	width: 100%;
+	
+}
+
+.mpClose
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align: center;
+	width: 100%;
+}
+
+.mpCloseMsg
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align: center;
+	width: 100%;
+}
+.mpCloseButton
+{
+	
+	position: absolute;
+	right: 4px;
+	width: 17px;
+	height: 18px;
+	
+}

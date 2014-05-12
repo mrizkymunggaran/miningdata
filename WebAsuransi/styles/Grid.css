@@ -1,0 +1,50 @@
+﻿	.GridFooterStyle
+	{		
+		
+        color: #fff;   
+       /* background: #424242 url(grd_head.png) repeat-x top;    */      
+        font-size: 1.0em;   		
+		}
+
+    .mGrid {   
+        width: 100%;   
+        background-color: #fff;   
+        margin: 0px 0 10px 0;   
+        border: solid 1px #525252;   
+        border-collapse:collapse; 
+            
+             font-family: 'Segoe UI Light_', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+    }  
+    .mGrid td {   
+        padding: 0  ;   
+       font-size: 12px;
+        border: solid 1px #c1c1c1;   
+        color: #000;   
+    }  
+    .mGrid th {   
+       
+          font-size: 13px; 
+      
+         border: solid 1px #c1c1c1;   
+      /*  background: #424242 url(grd_head.png) repeat-x top;  */	
+     background-color: #333333;
+      height:30px;
+      color:#fff;
+        
+        font-size: 0.9em;   
+    }  
+    .mGrid .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }  
+    .mGrid .pgr { background: #51A8B1 url(grd_pgr.png) repeat-x top; }  
+    .mGrid .pgr table { margin: 5px 0;  }  
+    .mGrid .pgr td {   
+        border-width: 0;   
+        padding: 0 6px;   
+        border-left: solid 1px #c1c1c1;   
+        font-weight: bold;   
+        color: #000;   
+			
+         font-size: 11px; 
+     }     
+    .mGrid .pgr a { color: #666; text-decoration: none;  }  
+    .mGrid .pgr a:hover { color: #000; text-decoration: none; }  
+ 

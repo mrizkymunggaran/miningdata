@@ -1,0 +1,60 @@
+﻿.cari
+{
+	font-family: Sans-Serif;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	padding : 10px;
+	 background-color: Menu;
+}
+.btnCari
+{
+	padding-top:5px;
+	text-align: center;
+	border: 1px solid #ccc;
+	
+}
+
+
+
+
+#tengahHome
+{
+	position: inherit;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 0;
+	right: 0;
+top:0;
+bottom:0;
+	
+	text-align:center;
+	
+	 /*	background-image:url('../images/color_blue.png') #56C5CF; 	  /*background-repeat: repeat ;                 /*border-radius: 10px 20px 20px 20px;        */
+}
+.panelBlue
+{
+	
+	border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 10px 20px;
+   -webkit-border-radius: 23px;
+   -moz-border-radius: 23px;
+ 
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: Black;
+   font-size: 14px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+	
+	}
