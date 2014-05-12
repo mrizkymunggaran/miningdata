@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Minning.master.cs" Inherits="WebAsuransi.Form.Minning" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../styles/Workspace.css" rel="stylesheet" type="text/css" />
+    <link href="../cssmui/css/metro-bootstrap.css" rel="stylesheet" />
+    <link href="../cssmui/css/metro-bootstrap-responsive.css" rel="stylesheet" />
+    <link href="../cssmui/css/docs.css" rel="stylesheet" />
+    <!-- Load JavaScript Libraries -->
+
+    <script language="javascript" src="../cssmui/js/jquery/jquery.min.js"></script>
+
+    <script language="javascript" src="../cssmui/js/jquery/jquery.widget.min.js"></script>
+
+    <script language="javascript" src="../cssmui/js/jquery/jquery.mousewheel.js"></script>
+
+    <script language="javascript" src="../cssmui/js/prettify/prettify.js"></script>
+
+    <!-- Metro UI CSS JavaScript plugins -->
+
+    <script language="javascript" src="../cssmui/js/load-metro.js"></script>
+
+    <!-- Local JavaScript -->
+
+    <script language="javascript" src="../cssmui/js/docs.js"></script>
+
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="metro">
+    <form id="form1" runat="server">
+    <div class="header" style="height: 40px;">
+        <div class="navigation-bar dark">
+            <div class="navigation-bar-content container">
+                <a id="lblHome" runat="server" href="WebFormHome.aspx" class="element"><span class="icon-home">
+                </span>Beranda<sup></sup></a> <span class="element-divider"></span><span class="element-divider">
+                </span>
+                <div runat="server" id="pnlAdmin">
+                    <a id="lblMfile" runat="server" class="element brand" href="WebFormManageFile.aspx">
+                        Management file <span class="icon-folder-2"></span></a><a id="lblPraposesing" runat="server"
+                            class="element brand" href="WebFormPraprocesing.aspx">Praposes <span class="icon-cog">
+                            </span></a><a id="lblPelatihan" runat="server" class="element brand" href="WebFormTraining.aspx">
+                                Pelatihan <span class="icon-stats-up"></span></a><a id="lblUploadMinning" runat="server"
+                                    class="element brand" href="WebFormMinning.aspx">Upload prediksi <span class="icon-upload-2">
+                                    </span></a>
+                </div>
+                <a class="element place-right" href="WebFormLoginAdmin.aspx">
+                    <asp:Label runat="server" ID="lblLogin" Text="login"></asp:Label>
+                    <span class="icon-enter"></span></a><span class="element-divider place-right">
+                </span>
+                <div runat="server" id="pnlUser">
+                    <%--<a class="element place-right" href="WebFormTutorial.aspx">Bantuan <span class="icon-help"></span></a>--%>
+                    <a class="element place-right" href="WebFormInput.aspx">Form prediksi <span class="icon-snowy-5">
+                    </span></a>
+                </div>
+                <div id="pnlAdmin2" runat="server" class="element place-right" title="Admin">
+                    <span class=" icon-user-3"></span><sup>admin</sup>
+                    <asp:Label ID="lblId" runat="server" Visible="false"></asp:Label>
+                    <asp:Label ID="lblUserName" runat="server" Visible="false"></asp:Label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" EnablePartialRendering="true"
+            AsyncPostBackTimeout="3600" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">
+        <div class="footer-font">
+            Informatika 2009 | FAKULTAS MIPA UNJANI
+        </div>
+    </div>
+    </form>
+</body>
+</html>
